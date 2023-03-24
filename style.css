@@ -1,0 +1,46 @@
+/*F1ECCE*/
+/*929982*/
+/*A4AC96*/
+/*ADC698*/
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; 
+    background: 929982;
+}
+
+nav{
+    background-color: black;
+    height: 2.5em;
+    box-shadow: 0 0 20px 10px rgb(0,0,0,0.2);
+}
+
+img{
+    margin: 2rem 0rem 0rem 2rem;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 10px rgb(0,0,0,0.2);
+    
+}
+
+img.hover{
+    margin: 2rem 0em 0rem 2rem;
+    width: 38rem;
+    height: 38rem;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 10px rgb(0,0,0,0.2);
+    
+}
+
+.image-container{
+    text-align: center;
+}
+
+#logo{
+    color: white;
+    /*margin: 5rem 4rem 4rem 4rem;*/
+    padding: 0.5rem 1.5rem 0rem 1.5rem;
+}
