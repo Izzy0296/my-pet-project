@@ -8,25 +8,42 @@ body{
     line-height: 1.6;
     margin: 0;
     padding: 0; 
-    background: 929982;
+    
+}
+
+header{
+    font-size: 1.5em;
 }
 
 nav{
-    background-color: black;
-    height: 2.5em;
+    background-color: rgb(53, 53, 53);
+    height: 2.0em;
     box-shadow: 0 0 20px 10px rgb(0,0,0,0.2);
+    text-align: center;
 }
+    
+a {
+    color: rgb(13, 21, 21);
+    text-decoration: none;
+    margin: .5em;
+    padding: .5e;
+    font-size: 1.1em;
+}
+    
+
+    
+
 
 img{
-    margin: 2rem 0rem 0rem 2rem;
-    width: 35rem;
+    margin: 4rem 1rem 1rem 2rem;
+    width: 30rem;
     height: 35rem;
     border-radius: 100%;
     box-shadow: 0 0 20px 10px rgb(0,0,0,0.2);
     
 }
 
-img.hover{
+img:hover{
     margin: 2rem 0em 0rem 2rem;
     width: 38rem;
     height: 38rem;
@@ -43,4 +60,8 @@ img.hover{
     color: white;
     /*margin: 5rem 4rem 4rem 4rem;*/
     padding: 0.5rem 1.5rem 0rem 1.5rem;
+}
+
+footer{
+    text-align: center;
 }
